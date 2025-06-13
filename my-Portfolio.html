@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Jordan Campagna | Portfolio</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {font-family: "Lato", sans-serif}
+.mySlides {display: none}
+</style>
+</head>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-black w3-card">
+    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">HOME</a>
+    <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hide-small">ABOUT</a>
+    <a href="#projects" class="w3-bar-item w3-button w3-padding-large w3-hide-small">PROJECTS</a>
+    <a href="#skills" class="w3-bar-item w3-button w3-padding-large w3-hide-small">SKILLS</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hide-small">CONTACT</a>
+  </div>
+</div>
+
+<!-- Navbar for small screens -->
+<div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+  <a href="#about" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">ABOUT</a>
+  <a href="#projects" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">PROJECTS</a>
+  <a href="#skills" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">SKILLS</a>
+  <a href="#contact" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">CONTACT</a>
+</div>
+
+<!-- Page content -->
+<div class="w3-content" style="max-width:1200px;margin-top:46px">
+
+  <!-- Header / Intro -->
+  <header class="w3-container w3-center w3-padding-64">
+    <h1 class="w3-xxxlarge">Jordan Campagna</h1>
+    <p>Computer Science Student | Aspiring ML & Cybersecurity Specialist</p>
+  </header>
+
+  <!-- About Section -->
+  <div class="w3-container w3-padding-64" id="about">
+    <h2 class="w3-wide w3-center">ABOUT ME</h2>
+    <p class="w3-opacity w3-center"><i>A bit about who I am</i></p>
+    <p class="w3-justify">
+      I'm a Computer Science undergraduate with a growing passion for both Cybersecurity and Machine Learning. I'm currently exploring both fields through personal projects, university work, and hands-on experimentation. I enjoy building tools, solving problems, and understanding how complex systems behave — both from a defensive and predictive perspective.
+    </p>
+  </div>
+
+  <!-- Projects Section -->
+  <div class="w3-container w3-padding-64" id="projects">
+    <h2 class="w3-wide w3-center">PROJECTS</h2>
+    <p class="w3-opacity w3-center"><i>What I’ve been working on</i></p><br>
+    <div class="w3-row-padding w3-center" style="margin-top:32px">
+      <div class="w3-third w3-margin-bottom">
+        <div class="w3-card-4 w3-white">
+          <img src="https://via.placeholder.com/400x200" alt="Project 1" style="width:100%">
+          <div class="w3-container">
+            <h3>Phishing Detector</h3>
+            <p class="w3-opacity">NLP + Security</p>
+            <p>A tool that uses machine learning to detect phishing emails using natural language processing techniques. Built in Python with Scikit-learn.</p>
+            <a href="https://github.com/yourusername/phishing-detector" class="w3-button w3-black w3-margin-bottom" target="_blank">View on GitHub</a>
+          </div>
+        </div>
+      </div>
+      <div class="w3-third w3-margin-bottom">
+        <div class="w3-card-4 w3-white">
+          <img src="https://via.placeholder.com/400x200" alt="Project 2" style="width:100%">
+          <div class="w3-container">
+            <h3>Personal Password Manager</h3>
+            <p class="w3-opacity">Cybersecurity</p>
+            <p>A secure local password manager with encryption and basic authentication features. Built using Python and SQLite.</p>
+            <a href="https://github.com/yourusername/password-manager" class="w3-button w3-black w3-margin-bottom" target="_blank">View on GitHub</a>
+          </div>
+        </div>
+      </div>
+      <div class="w3-third w3-margin-bottom">
+        <div class="w3-card-4 w3-white">
+          <img src="https://via.placeholder.com/400x200" alt="Project 3" style="width:100%">
+          <div class="w3-container">
+            <h3>COVID-19 Trend Predictor</h3>
+            <p class="w3-opacity">Data Science</p>
+            <p>Predicted COVID case growth using time-series data. Includes data cleaning, visualization, and forecasting models using Pandas and Prophet.</p>
+            <a href="https://github.com/yourusername/covid-trends" class="w3-button w3-black w3-margin-bottom" target="_blank">View on GitHub</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Skills Section -->
+  <div class="w3-container w3-padding-64" id="skills">
+    <h2 class="w3-wide w3-center">SKILLS</h2>
+    <p class="w3-opacity w3-center"><i>Things I know (so far)</i></p>
+    <ul class="w3-ul w3-white w3-card w3-margin-top">
+      <li class="w3-padding">Python, Java, Bash</li>
+      <li class="w3-padding">Git, GitHub, Linux</li>
+      <li class="w3-padding">Scikit-learn, Pandas, Matplotlib</li>
+      <li class="w3-padding">Wireshark, Nmap, Burp Suite</li>
+      <li class="w3-padding">Basic Web Dev: HTML, CSS, JS</li>
+    </ul>
+  </div>
+
+  <!-- Contact Section -->
+  <div class="w3-container w3-padding-64" id="contact">
+    <h2 class="w3-wide w3-center">CONTACT</h2>
+    <p class="w3-opacity w3-center"><i>Get in touch</i></p>
+    <div class="w3-row-padding w3-center">
+      <div class="w3-half w3-large w3-margin-bottom">
+        <p><i class="fa fa-envelope" style="width:30px"></i> jordan@example.com</p>
+        <p><i class="fa fa-github" style="width:30px"></i> <a href="https://github.com/yourusername" target="_blank">github.com/yourusername</a></p>
+        <p><i class="fa fa-linkedin" style="width:30px"></i> <a href="https://linkedin.com/in/yourprofile" target="_blank">linkedin.com/in/yourprofile</a></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-32 w3-center w3-opacity w3-light-grey w3-xlarge">
+  <i class="fa fa-github w3-hover-opacity"></i>
+  <i class="fa fa-linkedin w3-hover-opacity"></i>
+  <i class="fa fa-envelope w3-hover-opacity"></i>
+  <p class="w3-medium">© Jordan Campagna | <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">W3.CSS</a> based</p>
+</footer>
+
+<script>
+// Navbar toggle
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") === -1) {
+    x.className += " w3-show";
+  } else {
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+</script>
+
+</body>
+</html>
