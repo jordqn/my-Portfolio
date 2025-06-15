@@ -12,16 +12,17 @@ body {font-family: "Lato", sans-serif}
 .mySlides {display: none}
 
 .intro-header {
-  height: 100vh;           /* full viewport height */
-  background-image: url('images/acid-death.jpg'); /* your image path */
-  background-size: cover;  /* cover entire area */
-  background-position: center; /* center image */
-  display: flex;           /* use flexbox to center content */
+  height: 100vh; /* full viewport height */
+  background-image: url('pics/acid-death.jpg'); /* your image path */
+  background-size: cover; /* cover entire area */
+  background-position: center;
+  background-attachment: fixed; /* <-- THIS makes the image fixed */
+  display: flex;
   flex-direction: column;
-  justify-content: center; /* vertical center */
-  align-items: center;     /* horizontal center */
-  color: white;            /* text color for contrast */
-  text-shadow: 1px 1px 3px rgba(0,0,0,0.7); /* optional for better text visibility */
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.7);
 }
 
 </style>
